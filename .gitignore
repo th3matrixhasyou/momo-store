@@ -1,0 +1,7 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform/key.json
+terraform/backend.conf
+terraform/id_ed25519*

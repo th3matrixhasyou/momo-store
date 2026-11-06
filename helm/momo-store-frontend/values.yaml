@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: cr.yandex/crpo2pq04htucm1is6on/momo-frontend
+  tag: latest
+
+resources:
+  requests:
+    memory: "64Mi"
+    cpu: "100m"
+  limits:
+    memory: "128Mi"
+    cpu: "200m"
